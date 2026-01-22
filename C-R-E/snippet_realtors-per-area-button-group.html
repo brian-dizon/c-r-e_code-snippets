@@ -1,0 +1,27 @@
+<!-- @ https://www.calgary-real-estate.com/agents.php -->
+<!-- https://prnt.sc/ommdb9DKkTVP -->
+
+<div class="cre-button-group">
+  <ul>
+    <li><a href="/contact.php">Main Office</a></li>
+    <li><a href="/west-calgary-agents.php">WestSide Office</a></li>
+
+    <li><a href="/south-calgary-agents.php">Deep South Office</a></li>
+  </ul>
+</div>
+
+<!-- Custom Styles -->
+<script>
+  var css = ".cre-button-group{padding:2rem 0}.cre-button-group ul{list-style:none;margin:0;padding:0;text-align:center;display:-ms-grid;display:grid;gap:1rem}@media screen and (min-width:768px){.cre-button-group ul{-ms-grid-columns:(1fr)[3];grid-template-columns:repeat(3,1fr)}}@media screen and (min-width:1200px){.cre-button-group ul{-ms-grid-columns:(1fr)[5];grid-template-columns:repeat(5,1fr)}}.cre-button-group a{display:block;padding:1rem 3px;text-decoration:none;position:relative;color:#b11107;border:1px solid #b11107}.cre-button-group a:hover{color:#fff!important;background:rgb(177,17,7);background:-webkit-gradient(linear,left top,right top,from(rgb(177,17,7)),to(rgb(177,17,7)));background:linear-gradient(90deg,rgb(177,17,7) 0%,rgb(177,17,7) 100%)}";
+  var head = document.querySelector("head");
+  var style = document.createElement("style");
+  head.appendChild(style);
+  style.type = "text/css";
+  if (style.styleSheet) {
+    // This is required for IE8 and below.
+    style.styleSheet.cssText = css;
+  } else {
+    style.appendChild(document.createTextNode(css));
+  }
+</script>
+<!-- @end  Custom Styles -->
